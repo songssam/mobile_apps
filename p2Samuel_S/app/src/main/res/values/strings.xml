@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">p2Samuel_S</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="ctAdd">Compute to add</string>
+    <string name="ctMultiply">Compute to multiply</string>
+    <string name="Add">Add</string>
+    <string name="Multiply">Multiply</string>
+    <string name="action_settings">Settings</string>
+</resources>

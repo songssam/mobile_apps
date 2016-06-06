@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">p3Samuel_S</string>
+    <string name="action_settings">Settings</string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="B"> </string>
+    <string name="N">New Game</string>
+    <string name="L">Log</string>
+
+</resources>

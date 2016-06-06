@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/aline1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/textNum1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aline2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aline1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/textNum2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aResLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aline2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/aTextRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/aRes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aResLine"
+        android:text="@string/ctAdd" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addButton"
+        android:text="@string/ctMultiply" />
+
+
+</RelativeLayout>

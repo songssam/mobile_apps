@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">p7Samuel_S</string>
+    <string name="title_activity_maps">p7Samuel_S</string>
+    <string name="cs_button_label">CS</string>
+    <string name="lib_button_label">Lib</string>
+    <string name="white">White</string>
+</resources>

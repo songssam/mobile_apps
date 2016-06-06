@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">p1Samuel_S</string>
+
+    <string name="Hello">Hello!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">p4Samuel_S</string>
+    <string name="n">Name </string>
+    <string name="p">Password </string>
+    <string name="d">Date of Birth</string>
+    <string name="g">Gender</string>
+    <string name="s">Skill</string>
+    <string name="r_male">Male</string>
+    <string name="r_female">Female</string>
+    <string name="c">Classfication</string>
+    <string name="action_settings">Settings</string>
+    <string name="select">Select</string>
+    <string name="r">Register</string>
+    <string-array name="classArr">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+        <item>Graduate</item>
+    </string-array>
+
+</resources>
